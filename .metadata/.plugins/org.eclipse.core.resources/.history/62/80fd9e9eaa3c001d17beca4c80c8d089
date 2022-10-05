@@ -1,0 +1,36 @@
+package com.gradedproject1;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		// Objects for HR, tech and admin  Department;
+		SuperDepartment hr = new HrDepartment();
+		SuperDepartment tech = new TechDepartment();
+		SuperDepartment admin = new AdminDepartment();
+
+		//HR 
+		System.out.println(hr.departmentName());
+		System.out.println(hr.getTodaysWork());
+		System.out.println(hr.getWorkDeadline());
+		System.out.println(((HrDepartment) hr).doActivity());
+		
+		//TECH
+		System.out.println(tech.departmentName());
+		System.out.println(tech.getTodaysWork());
+		System.out.println(tech.getWorkDeadline());
+		System.out.println(((TechDepartment) tech).getTechStackInformation());
+		
+		
+		//Admin;
+		System.out.println(admin.departmentName());
+		System.out.println(admin.getTodaysWork());
+		System.out.println(admin.isTodayAHoliday());
+		System.out.println(admin.getWorkDeadline());
+		
+
+		
+		
+	}
+
+}
