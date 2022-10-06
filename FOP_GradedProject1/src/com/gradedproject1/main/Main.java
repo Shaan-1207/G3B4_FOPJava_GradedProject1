@@ -20,30 +20,33 @@ public class Main {
 	public static void main(String[] args) {
 
 		// Objects for HR, TECH and ADMIN Department;
-		SuperDepartment hr = new HrDepartment();
-		SuperDepartment tech = new TechDepartment();
-		SuperDepartment admin = new AdminDepartment();
+		HrDepartment hr = new HrDepartment();
+		TechDepartment tech = new TechDepartment();
+		AdminDepartment admin = new AdminDepartment();
 
 		// Output of all Department;
+		// ADMIN;
+		System.out.println(admin.departmentName());
+		System.out.println(admin.getTodaysWork());
+		System.out.println(admin.getWorkDeadline());
+		System.out.println(admin.isTodayAHoliday());
+		
+		
 		// HR 					
 		System.out.println(hr.departmentName());
-		System.out.println(hr.isTodayAHoliday());
+		System.out.println(hr.doActivity());
 		System.out.println(hr.getTodaysWork());
 		System.out.println(hr.getWorkDeadline());
-		System.out.println(((HrDepartment) hr).doActivity());
+		System.out.println(hr.isTodayAHoliday());
 
 		// TECH
 		System.out.println(tech.departmentName());
-		System.out.println(tech.isTodayAHoliday());
 		System.out.println(tech.getTodaysWork());
 		System.out.println(tech.getWorkDeadline());
-		System.out.println(((TechDepartment) tech).getTechStackInformation());
+		System.out.println(tech.getTechStackInformation());
+		System.out.println(tech.isTodayAHoliday());
 
-		// ADMIN;
-		System.out.println(admin.departmentName());
-		System.out.println(admin.isTodayAHoliday());
-		System.out.println(admin.getTodaysWork());
-		System.out.println(admin.getWorkDeadline());
+
 
 	}
 

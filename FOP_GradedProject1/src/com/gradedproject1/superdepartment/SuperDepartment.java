@@ -3,7 +3,7 @@ package com.gradedproject1.superdepartment;
 public class SuperDepartment {
 	
 	public String departmentName() {
-		return "Department::->> Super Department";
+		return "Department::->> Welcome to Super Department";
 	}
 
 	public String getTodaysWork() {
@@ -15,7 +15,7 @@ public class SuperDepartment {
 	}
 	
 	public String isTodayAHoliday() {
-		return "Calender::->> Today is not a holiday";
+		return "Calender::->> Today is not a holiday\n";
 	}
 	
 	

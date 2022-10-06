@@ -5,7 +5,7 @@ import com.gradedproject1.superdepartment.SuperDepartment;
 public class TechDepartment extends SuperDepartment{
 	
 	public String departmentName() {
-		return "Department::->> Tech Department";
+		return "Department::->> Welcome to Tech Department";
 	}
 
 	public String getTodaysWork() {
@@ -17,6 +17,6 @@ public class TechDepartment extends SuperDepartment{
 	}
 	
 	public String getTechStackInformation() {
-		return "Tech Stack Info::->> core Java\n";
+		return "Tech Stack Info::->> core Java";
 	}
 }

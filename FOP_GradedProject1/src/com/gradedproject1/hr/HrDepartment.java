@@ -5,7 +5,7 @@ import com.gradedproject1.superdepartment.SuperDepartment;
 public class HrDepartment extends SuperDepartment{
 	
 	public String departmentName() {
-		return "Department::->> HR Department";
+		return "Department::->> Welcome to HR Department";
 	}
 
 	public String getTodaysWork() {
@@ -17,6 +17,6 @@ public class HrDepartment extends SuperDepartment{
 	}
 	
 	public String doActivity() {
-		return "Activity::->> team Lunch\n";
+		return "Activity::->> team Lunch";
 	}
 }

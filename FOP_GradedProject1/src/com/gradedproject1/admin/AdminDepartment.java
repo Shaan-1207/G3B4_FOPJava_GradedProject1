@@ -5,7 +5,7 @@ import com.gradedproject1.superdepartment.SuperDepartment;
 public class AdminDepartment extends SuperDepartment{
 	
 	public String departmentName() {
-		return "Department::->> Admin Department";
+		return "Department::->> Welcome to Admin Department";
 	}
 
 	public String getTodaysWork() {
@@ -13,6 +13,6 @@ public class AdminDepartment extends SuperDepartment{
 	}
 	
 	public String getWorkDeadline() {
-		return "Work Deadline::->> Complete by EOD\n";
+		return "Work Deadline::->> Complete by EOD";
 	}
 }
